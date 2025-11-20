@@ -107,7 +107,9 @@ def data(date, from_station, to_station):
 
 
 if __name__ == "__main__":
-    result = data("2025-11-14", "南京", "武汉")
+    result = data("2025-11-21", "南京", "武汉")
     for train in result:
         print(train)
+        print(len(train))
+
 

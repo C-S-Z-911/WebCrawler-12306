@@ -103,7 +103,7 @@ class Ui_Form(object):
         self.label_2.setText(_translate("Form", "目的地"))
         self.lineEdit_3.setText(_translate("Form", "目的地"))
         self.label.setText(_translate("Form", "出发时间"))
-        self.lineEdit_2.setText(_translate("Form", f"XXXX-XX-XX\t例: {datetime.date.today()}"))
+        self.lineEdit_2.setText(_translate("Form", f"YYYY-MM-DD\t例: {datetime.date.today()}"))
         self.pushButton.setText(_translate("Form", "查询"))
         item = self.tableWidget.horizontalHeaderItem(0)
         item.setText(_translate("Form", "车次"))
